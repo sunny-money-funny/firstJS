@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Ribeye+Marrow&display=swap" rel="stylesheet">
+    <title>C'est Sunny</title>
+  </head>
+  <body>
+    <form class="hidden" id="login-form">
+      <input 
+          required
+          maxlength ="15"
+          type="text"
+          placeholder="what is your name?" 
+      />
+      <button>Log In</button>
+    </form>
+    <br></br>
+    <h2 id="clock"></h2>
+    <h1 id="greeting" class="hidden"></h1>
+    <br></br>
+    <form id="todo-form">
+      <input type="text" placeholder="Write a TO DO and press ENTER">
+    </form>
+    <ul id="todo-list"></ul>
+    <br></br>
+    <div id="quote">
+      <span></span>
+      <span></span>
+    </div>
+    <br></br>
+    <div id = "weather">
+      <span></span>
+      <span></span>
+    </div>
+    <br></br>
+    <a href="https://github.com/sunny-money-funny/firstJavaScript">sunny's place ☀️</a>
+    <br></br>
+    <script src="greetings.js"></script>
+    <script src="clock.js"></script>
+    <script src="quotes.js"></script>
+    <script src="background.js"></script>
+    <script src="todo.js"></script>
+    <script src="weather.js"></script>
+  </body>
+</html> 

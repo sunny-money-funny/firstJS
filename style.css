@@ -1,0 +1,11 @@
+.hidden{
+    display: none;
+}
+  
+body{
+    background-color: skyblue;
+    font-family: "Ribeye Marrow", serif;
+    font-weight: 400;
+    font-style: normal;
+
+}
